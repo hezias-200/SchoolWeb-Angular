@@ -1,0 +1,33 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Picture</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Age</th>
+        
+        <th scope="col">City</th>
+        <th scope="col">job Title</th>
+        <th scope="col">Work Hours</th>
+        <th scope="col">Money Per Hour</th>
+        <th scope="col">Salary In Month</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor='let employee of employees' [ngClass]="{
+        red:employee.checkSalary()<3000,
+        blue:employee.checkSalary()>3000
+      }">
+        <th scope="row">{{employee.id}}</th>
+        <td><img class="card-img-top img" src="{{employee.img}}"/></td>
+        <td>{{employee.fullName}}</td>
+        <td>{{employee.age}}</td>
+        
+        <td>{{employee.Hometown}}</td>
+        <td>{{employee.jobTitle}}</td>
+        <td>{{employee.workHoursInMonth}}</td>
+        <td>{{employee.moneyPerHour}}</td>
+        <td>{{(employee.moneyPerHour*employee.workHoursInMonth)}}</td>
+      </tr>
+    </tbody>
+  </table>

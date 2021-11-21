@@ -1,0 +1,39 @@
+<div class="container">
+    <h2>Teacher - details</h2>
+    <div *ngIf="teacher | async as teacher">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">ID :{{teacher.id}}</div>
+            <img class="card-img-top img" src="{{teacher.img}}"/>
+            <div class="card-body">
+                <h5 class="card-title">Name: {{teacher.fullName}}</h5>
+                <p class="card-text"> Age: {{teacher.age}}</p>
+                <p class="card-text">Hometown: {{teacher.Hometown}}</p>
+                <p class="card-text"> Seniority: {{teacher.seniority}}</p>
+                <p class="card-text"> Num Of Work Hours: {{teacher.numOfWorkHours}}</p>
+            </div>
+        </div>
+
+        <div class="input-group-prepend ">
+            <span  id="">First and last name: </span>
+            <input type="text" [(ngModel)]="teacher.fullName" placeholder="name..." type="text" class="form-control">
+            <span  >ID: </span>
+            <input type="number" [(ngModel)]="teacher.id" placeholder="id" class="form-control">
+            <br>
+            <span>Age: </span>
+            <input type="number" [(ngModel)]="teacher.age" placeholder="age..." class="form-control">
+            <br>
+            <span>Picture: </span>
+            <input type="text" [(ngModel)]="teacher.img" placeholder="Picture..." class="form-control">
+            <br>
+            <span>Hometown: </span>
+            <input type="text" [(ngModel)]="teacher.Hometown" placeholder="Hometown..." class="form-control">
+            <br>
+            <span>Seniority: </span>
+            <input type="number" [(ngModel)]="teacher.seniority" placeholder="seniority..." class="form-control">
+            <br>
+            <span>Num Of Work Hours:</span>
+            <input type="number" [(ngModel)]="teacher.numOfWorkHours" placeholder="numOfWorkHours..." class="form-control">
+            <br>
+        </div>
+        <button class="btn btn-secondary" (click)="goBack()">BACK</button>
+    </div>

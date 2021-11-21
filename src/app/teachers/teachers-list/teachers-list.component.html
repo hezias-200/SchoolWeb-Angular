@@ -1,0 +1,18 @@
+<div class="container row ">
+  <div *ngFor='let teacher of teachers | async' class="card text-white bg-dark mb-3  col-sm-6"
+    style="max-width: 18rem;margin-left: 3rem;margin-top: 1rem ;">
+    <div class="card-header">ID :{{teacher.id}}</div>
+    <img class="card-img-top img " src="{{teacher.img}}"/>
+    <div class="card-body">
+      <h5 class="card-title">Name: {{teacher.fullName}}</h5>
+      <p class="card-text"> Age: {{teacher.age}}</p>
+      <p class="card-text">Hometown: {{teacher.Hometown}}</p>
+      <p class="card-text"> Seniority: {{teacher.seniority}}</p>
+      <p class="card-text"> Num Of Work Hours: {{teacher.numOfWorkHours}}</p>
+      <label class="card-text"> Salary: {{teacher.salary}}</label><br><br>
+      <a class="btn btn-primary" [routerLink]="['/editTeacher',teacher.id]">
+        Edit
+      </a>
+    </div>
+  </div>
+</div>

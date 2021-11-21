@@ -1,0 +1,12 @@
+import { Class } from "../Class";
+import { Teacher } from "./Teacher";
+
+export const TEACHERS:Teacher [] = [
+    new Teacher(276983421,'Efi Buzaglo',25,'Ashdod',2,8,8999,['Math','Geography','History'],[new Class ('1','Math Class',24,'53.0.1'),new Class ('2','LAB Class',10,'53.0.2'),new Class ('3','History Class',24,'53.0.3')],'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXleaWljbyOXW4Uop1xozTpQsyU3p5XK3xfg&usqp=CAU'),
+    new Teacher(457823424,'Revital Sofi',22,'Petah-Tikva',1,8,7999,['Math','Geography','History'],[new Class ('1','Math Class',24,'53.0.1'),new Class ('2','LAB Class',10,'53.0.2'),new Class ('3','History Class',24,'53.0.3')],'https://d19d5sz0wkl0lu.cloudfront.net/dims4/default/b2928d2/2147483647/resize/800x%3E/quality/90/?url=https%3A%2F%2Fatd-brightspot.s3.amazonaws.com%2F7f%2F38%2Fb37d0d6148e48fea8f76209eb3bb%2Fbigstock-pretty-teacher-smiling-at-came-69887626-1.jpg'),
+    new Teacher(287605214,'Shlomi Darvi',31,'Yavne',5,8,15999,['Math','Geography','History'],[new Class ('1','Math Class',24,'53.0.1'),new Class ('2','LAB Class',10,'53.0.2'),new Class ('3','History Class',24,'53.0.3')],'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM50zwttV9HcD9IuINMR7sis2XxH3iWsM6pg&usqp=CAU'),
+    new Teacher(985348132,'Anat Sofer',33,'Ashkelon',7,8,10999,['Math','Geography','History'],[new Class ('1','Math Class',24,'53.0.1'),new Class ('2','LAB Class',10,'53.0.2'),new Class ('3','History Class',24,'53.0.3')],'https://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/EDUCMS/p_acke3f50uyfhg-eyj-ia.jpg'),
+    new Teacher(274957321,'Asaf Cohen',30,'Ariel',12,8,22999,['Math','Geography','History'],[new Class ('1','Math Class',24,'53.0.1'),new Class ('2','LAB Class',10,'53.0.2'),new Class ('3','History Class',24,'53.0.3')],'https://27mi124bz6zg1hqy6n192jkb-wpengine.netdna-ssl.com/wp-content/uploads/2020/05/Top-5-Teaching-Strategies-scaled.jpg'),
+    new Teacher(598623145,'Danit Nishzki',28,'Ariel',6,8,13999,['Math','Geography','History'],[new Class ('1','Math Class',24,'53.0.1'),new Class ('2','LAB Class',10,'53.0.2'),new Class ('3','History Class',24,'53.0.3')],'https://media.istockphoto.com/photos/portrait-of-female-elementary-school-teacher-standing-in-classroom-picture-id1160927409?k=6&m=1160927409&s=612x612&w=0&h=Eu5E0uL06m_l70jYghxUYmcCVWkgktEju5uGhMpPpbA='),
+
+  ]

@@ -1,0 +1,41 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Picture</th>
+        <th scope="col">ID</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">City</th>
+        <th scope="col">Professions</th>
+        <th scope="col">Class</th>
+        <th scope="col">Edit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor='let pupil of pupils' [ngClass]="{
+        red:pupil.avgTests()<65,
+        blue:pupil.avgTests()>=65
+      }">
+      <th><img src="{{pupil.img}}" class="img" /></th>
+        <th scope="row">{{pupil.id}}</th>
+        
+        <td>{{pupil.fullName}}</td>
+        <td>{{pupil.age}}</td>
+        <td>{{pupil.Hometown}}</td>
+        <td>
+          <li>Math:{{pupil.Professions[0].Math}}</li>
+          <li>Geography:{{pupil.Professions[1].Geography}}</li>
+          <li>History:{{pupil.Professions[2].History}}</li>
+        </td>
+        <td>
+          <li>ID : {{pupil.class.idClass}}</li>
+          <li>Name : {{pupil.class.nameClass}}</li>
+          <li>Num Of Student:{{pupil.class.numOfStudent}}</li>
+          <li>Location In School:{{pupil.class.locationOfClassInSchool}}</li>
+        </td>
+        <td> <a class="btn btn-primary" [routerLink]="['/editPupil',pupil.id]">
+          Edit
+        </a></td>
+      </tr>
+    </tbody>
+  </table>

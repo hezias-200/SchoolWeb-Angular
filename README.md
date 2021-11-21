@@ -1,27 +1,29 @@
-# SchoolWebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
+<div style='container'>
+<h1 style="background-color:grey;text-align: center"># School Website</h1>
+<div dir="rtl">
+ הדף הראשי של האתר כאשר ניתן ללחוץ על כל קטגוריה שתוביל לעמוד הרצוי </p>
+<img src="./src/app/IMGS/main.jpg"/><hr>
+פה אני מציג בכרטיסיות את כל המורים ופרטי המורים כאשר יש אפשרות לערוך את כל הפרטים של המורה
+<img src="./src/app/IMGS/teacher-tab.jpg"/><hr>
+כאשר אני לוחץ על עריכת המורה הספציפי הזה ניתן לערוך את כל הפרטים של המורה ואז ללחוץ על הכפתור חזור כדי לראות את המורים לאחר שעידכנתי את הפרטים של המורה
+<img src="./src/app/IMGS/editeacher-tab.jpg"/><hr>
+<p>כאן ניתן לראות בטבלה את כל התלמידים עם הפרטים שלהם מה שמופיע בכחול זה תלמידים שהממוצע שלהם מעל  65 </p>
+מה שמופיע באדום זה תלמידים שהממוצע ציונים שלהם מתחת ל65 עם כפתור שעורך את הפרטים של התלמיד.
+<img src="./src/app/IMGS/pupils-tab.jpg"/><hr><br>
+כאן ניתן לראות את הכרטיסיה עם כל הפרטים של התלמיד שניתן לערוך
+<img src="./src/app/IMGS/editpupil-tab.jpg"/><hr>
+כאן ניתן לראות טבלה של כל העובדים ,כל העובדים שמסומנים בכחול זה עובדים שמרוויחים שכר של מעל 3000 שח בחודש ומה שבאדום זה עובדים שמרוויחים פחות מ 3000 שח בחודש
 
-## Development server
+<img src="./src/app/IMGS/clickhome.jpg"/><hr>
+<p>***ניתן להגיע לדף הראשי מכל מקום כאשר לוחצים על הסמל לוגו של האתר***</p>
+</div>
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

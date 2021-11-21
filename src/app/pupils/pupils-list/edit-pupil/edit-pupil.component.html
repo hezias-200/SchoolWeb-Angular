@@ -1,0 +1,29 @@
+<div class="container">
+    <h2>Pupil - details</h2>
+    <div *ngIf="pupil | async as pupil">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">ID :{{pupil.id}}</div>
+            <img class="card-img-top img" src="{{pupil.img}}"/>
+            <div class="card-body">
+                <h5 class="card-title">Name: {{pupil.fullName}}</h5>
+                <p class="card-text"> Age: {{pupil.age}}</p>
+                <p class="card-text">Hometown: {{pupil.Hometown}}</p>
+            </div>
+        </div>
+        <div class="input-group-prepend ">
+            <span>First and last name: </span>
+            <input type="text" [(ngModel)]="pupil.fullName" placeholder="name..." type="text" class="form-control">
+            <span>ID: </span>
+            <br>
+            <input type="number" [(ngModel)]="pupil.id" placeholder="id" class="form-control">
+            <span>Age: </span>
+            <input type="number" [(ngModel)]="pupil.age" placeholder="age..." class="form-control">
+            <span>Picture: </span>
+            <input type="text" [(ngModel)]="pupil.img" placeholder="img..." class="form-control">
+            <span>Hometown: </span>
+            <input type="text" [(ngModel)]="pupil.Hometown" placeholder="Hometown..." class="form-control">
+            <br>
+        </div>
+        <button class="btn btn-secondary" (click)="goBack()">BACK</button>
+    </div>
+</div>
