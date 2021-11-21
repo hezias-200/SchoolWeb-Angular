@@ -3,19 +3,19 @@
 <h1 style="background-color:grey;text-align: center"># School Website</h1>
 <div dir="rtl">
  הדף הראשי של האתר כאשר ניתן ללחוץ על כל קטגוריה שתוביל לעמוד הרצוי </p>
-<img src="./src/app/IMGS/main.jpg"/><hr>
+<img src="IMGS/main.jpg"/><hr>
 פה אני מציג בכרטיסיות את כל המורים ופרטי המורים כאשר יש אפשרות לערוך את כל הפרטים של המורה
-<img src="./src/app/IMGS/teacher-tab.jpg"/><hr>
+<img src="IMGS/teacher-tab.jpg"/><hr>
 כאשר אני לוחץ על עריכת המורה הספציפי הזה ניתן לערוך את כל הפרטים של המורה ואז ללחוץ על הכפתור חזור כדי לראות את המורים לאחר שעידכנתי את הפרטים של המורה
-<img src="./src/app/IMGS/editeacher-tab.jpg"/><hr>
+<img src="IMGS/editeacher-tab.jpg"/><hr>
 <p>כאן ניתן לראות בטבלה את כל התלמידים עם הפרטים שלהם מה שמופיע בכחול זה תלמידים שהממוצע שלהם מעל  65 </p>
 מה שמופיע באדום זה תלמידים שהממוצע ציונים שלהם מתחת ל65 עם כפתור שעורך את הפרטים של התלמיד.
-<img src="./src/app/IMGS/pupils-tab.jpg"/><hr><br>
+<img src="IMGS/pupils-tab.jpg"/><hr><br>
 כאן ניתן לראות את הכרטיסיה עם כל הפרטים של התלמיד שניתן לערוך
-<img src="./src/app/IMGS/editpupil-tab.jpg"/><hr>
+<img src="IMGS/editpupil-tab.jpg"/><hr>
 כאן ניתן לראות טבלה של כל העובדים ,כל העובדים שמסומנים בכחול זה עובדים שמרוויחים שכר של מעל 3000 שח בחודש ומה שבאדום זה עובדים שמרוויחים פחות מ 3000 שח בחודש
 
-<img src="./src/app/IMGS/clickhome.jpg"/><hr>
+<img src="IMGS/clickhome.jpg"/><hr>
 <p>***ניתן להגיע לדף הראשי מכל מקום כאשר לוחצים על הסמל לוגו של האתר***</p>
 </div>
 </div>
